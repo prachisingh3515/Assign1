@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        
+        h1{
+            font-size: 40px;
+            text-shadow: 3px 3px 2px black;
+            color: purple;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        img{
+            margin: auto 150px auto auto;
+        }
+        button{
+            cursor: pointer;
+            padding: 20px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body background="https://tse2.mm.bing.net/th?id=OIP.OdBPOyeHGykIAvBJFzCPmwHaEK&pid=Api&P=0">
+    
+        
+        
+    
+
+    <center><h1>REGISTRATION INFO</h1>
+    
+    <form>
+        <center><fieldset style="width:30%">
+            <legend><b>PERSONAL DETAILS</b></legend>
+        <div>
+            NAME: <input required type="text" placeholder="Name">
+        </div>
+        <br>
+        
+        <div>
+            GENDER: <input required type="radio"> Male
+            <input required type="radio"> Female
+        </div>
+        <br>
+        <div>
+            BRANCH: <select name="Branch">
+            <option value="default-is-selected" selected="selected">Selected by default</option>
+            <option value="aiml">AIML</option>
+            <option value="ds">DS</option>
+            </select>
+        </div>
+        <br>
+        <div>
+           SECTION: <input required type="checkbox">SEC A
+           <input required type="checkbox"> SEC B
+        </div>
+        </fieldset>
+        <br>
+        <center><fieldset style="width:30%">
+            <legend><b>CONTACT DETAILS</b></legend>
+        <div>
+            ADDRESS: <textarea cols="30" rows="5">Address</textarea>
+        </div>
+        <br>
+        <div>
+            CONTACT: <input required type="tel" placeholder="+91 XXXXXXXXXX">
+        </div>
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <div>
+            <center><button type="submit">Submit</button></center>
+        </div>
+        
+    </form>
+</body>
+</html>
